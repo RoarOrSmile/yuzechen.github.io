@@ -1,0 +1,16 @@
+title: yuzechen.github.io
+email: cyz435641433@gmail..com
+description: >- 
+  The resume of yuze chen
+github_username:  RoarOrSmile
+
+markdown: kramdown
+theme: minima 
+plugins:
+  - jekyll-feed
+
+title: The Resume
+description: The Optimistic Developers
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect

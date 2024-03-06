@@ -3,12 +3,6 @@ This README aims to instruct computer science students step-by-step how to forma
 In this process, Etter's Modern Technical Writing principles are constantly applied.
 
 
-Prerequisites
-A GitHub account
-A resume formatted in Markdown (.md file)
-Basic knowledge of Git and Markdown syntax
-For those unfamiliar with Markdown, here's a comprehensive Markdown tutorial to get you started.
-
 ## Prerequisites
 - [A GitHub account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 - [A resume formatted in Markdown (.md file)](https://www.markdownguide.org/)
@@ -20,79 +14,74 @@ For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](h
 ***
 ## **practical steps** 
 * [Prerequisites](#Prerequisites)
-* [Instructions](#Instructions)
-   * [Why We Chose Markdown](#Why-We-Chose-Markdow)
+* [Why We Chose Markdown](#Why-We-Chose-Markdow)
+* [Getting Started](#Getting-Started)
+   * [Write your resume](#Getting-Started)
    * [Creating the Repository](#Creating-the-Repository)
-   * [Setting Up the Repository Page](#Setting-Up-the-Repository-Page)
-   * [Selecting the Jekyll Template](#Selecting-the-Jekyll-Template)
+   * [Add Your Resume](#Add-Your-Resume)
+   * [Enable GitHub Pages](#Enable-GitHub-Pages)
+   * [Chosing your Jekyll Template](#Chosing-your-Jekyll-Template)
    * [Hosting a Resume on GitHub Pages](#Hosting-a-Resume-on-GitHub-Pages)
 * [More Resources](#More-Resources)
 * [Authors and Acknowledgments](#Authors-and-Acknowledgments)
 * [FAQs](#FAQs)
 
 
+ ### Why We Chose Markdown
+Andrew Etter, in his influential book Modern Technical Writing, advocates for the democratization of content creation by making it accessible to as broad an audience as possible. One of the core tenets he discusses is the importance of utilizing lightweight markup languages to facilitate easier contribution and collaboration. Markdown, as highlighted by Etter, embodies this philosophy perfectly. Its simplicity and user-friendly syntax make it an ideal choice for writers and contributors of all skill levels. This ease of learning and use aligns with Etter's vision of encouraging more people to contribute, ensuring that technical writing and documentation are not gatekept behind complex tools. By choosing Markdown, we're not just adopting a tool for writing; we're embracing a methodology that lowers barriers to entry and fosters a more inclusive environment for sharing knowledge.
 
 ***
 ## Getting Started 
 
-**Markdown is a markup language which translates into HTML.**
-
-#### Installing The Markdown Editors
-- [Markdown Editors by OS](#More-Resources)
-- [Online Markdown Editors](#More-Resources)
-#### Markdown Tutorial
-- [Good Tutorial](#More-Resources)
-- [Basic Syntax](#More-Resources)
-
-#### The Resume Formatted in Markdown
-- [The Example](https://andre-loo.github.io/)
-
-#### The Account for GitHub
-- [Sign Up](https://github.com/join)
-
-***
-## Instructions
-
- ### Why We Chose Markdown
- Andrew Etter states that everyone can be a contributor. In order to find an easy and free way to achieve this goal, using lightweight markup languages is an excellent choice, since they are easy to learn and it is better to make contributions. Markdown is the most widely used of them in the world.
-
-1. Change your resume Markdown file name to ```index.md```
+### Write your resume 
+1. How to write markdown resume[The Markdown Resume](https://mszep.github.io/pandoc_resume/)
+2. Change your resume Markdown file name to ```index.md```
 
 ### Creating the Repository
-The storage and updating of documentation and code is always a core issue for developers. Andrew Etter prefers the distributed version control system(DVCS), which offers better performance and allows users to work offline. Developers are also able to handle the concurrency of the same file better. GitHub is one of the representatives of DVCS that is loved by the majority of people. In the present day, many developers treat the creation of a new repository as the starting point for their development. A repository represents a complete project, so they can control multiple branches to continuously update the development progress.
+In the realm of technical documentation and code management, the challenge of efficiently storing and updating materials is paramount. Echoing the insights of Andrew Etter in Modern Technical Writing, there's a pronounced preference for distributed version control systems (DVCS) among developers. DVCS stands out for its superior performance, offline capability, and enhanced concurrency management for files. Among various DVCS platforms, GitHub emerges as a widely embraced tool, favored for its intuitive interface and robust functionality. In today's development landscape, initiating a new project often begins with the creation of a GitHub repository. This practice not only symbolizes the commencement of a new venture but also empowers developers with the ability to manage multiple branches. Such versatility facilitates continuous updates and progress tracking, embodying the project's evolving nature in a dynamic and collaborative environment.
 
-1. Log into your [GitHub](https://github.com/) account.
-2. Click the **'+'** symbol at the top right corner of website.
-3. Select the **'New repository'**.
-4. Enter ```YourUserName.github.io``` as the repository name. (e.g, andre-loo.github.io)
-5. Check the box **"Add a README file"**.
-6. Click the **"Create repository"** to finish.
+- Sign into your GitHub account.
+- Click the “New repository” button to create a new repository.
+- Name the repository `<your-username>.github.io`, where `<your-username>` is your GitHub username.
+- It is recommended to initialize the repository with a `README.md` file.
 
-### Setting Up the Repository Page
+### Add Your Resume
 
-1. Click the gear button **"Settings"** in the main page of repository.
-2. Select **Pages** at the left side of code and automation.
-3. Change the **"None"** status to **"main"** in Branch section.
-4. Click the **Save** button.
+- Save your resume as a Markdown file, recommended name `index.md`, which will serve as the homepage.
+- Use Git to push this file to your repository.
+```bash
+git add index.md
+git commit -m "Add resume"
+git push origin master
+```
 
-### Selecting the Jekyll Template
-Andrew Etter states that static websites are speedy, simple, portable and secure. For documents that need to be constantly changed, technicians do need a simple and user-friendly way to iterate. Static websites provide an easy way to do this. In other words, they are tools that allow developers to update the content of your documents at any time without any additional environment. Therefore, we choose Jekyll as the theme set for the static website. We usually only need to change some setting information in the theme file to be able to adjust the pages of the static website. Developers who need more aesthetic and beautiful pages can also personalize their static websites through HTML and CSS.
+### Enable GitHub Pages
 
-1. Enter the website [Supported themes](https://pages.github.com/themes/).
-2. Pick one of your favorite name of themes.
-3. Click the **"preview the theme to see what it looks like"** or    **"Theme preview"** in ```README.md```.
-4. Does this style of the theme make you happy?
-- If no, go back to website [Supported themes](https://pages.github.com/themes/).
-- If yes, copy the code lines in **Usage** section of ```README.md```.
-5. Go back to your own main page of repository.
-6. Click the **"Add file"** in the main page of repository.
-7. Select the **"Create new file"**.
-8. Enter ```_config.yml``` as the file name.
-9. Paste the code lines (from step 4) as contents of file. 
-10. Click the **"Commit new file"** at the bottom of page.
+To make your resume accessible online through GitHub Pages, follow these steps:
+
+- **Navigate to your repository settings**: Click on the "Settings" tab at the top of your repository.
+- **Locate the GitHub Pages section**: Scroll down until you find the "GitHub Pages" area.
+- **Select the source**: Use the "Source" drop-down menu to select the `main` branch as the content source for GitHub Pages.
+- **Choose a theme (Optional)**: You can improve the appearance of your page by selecting a theme. This is optional, as your Markdown file will be rendered using the default GitHub style if you do not choose a theme.
+- **Save your changes**: After making your selection, GitHub will automatically generate a URL for your site, which is usually formatted as `https://<your-username>.github.io`.
+
+![Enable GitHub Pages](https://media.giphy.com/media/r52VIeTturQpMcdRQw/giphy.gif)
+
+### Chosing your Jekyll Template
+
+Recognizing the inherent benefits outlined by Etter, our choice of Jekyll as the theme set for constructing static websites is deliberate. Jekyll simplifies the process of content updates and site customization through its theme-centric architecture. Typically, adjustments to the website can be achieved by modifying settings within the theme files. This level of simplicity ensures that even those with minimal technical expertise can manage and update the website efficiently.Moreover, developers desiring more aesthetically pleasing and personalized pages are not constrained by Jekyll’s theming capabilities alone. The underlying structure of static websites allows for extensive customization through HTML and CSS, enabling developers to tailor the look and feel of their sites to match their unique preferences or branding requirements. This blend of simplicity for basic use cases and flexibility for more complex customizations embodies the core advantages of static websites as extolled by Etter.In essence, static websites serve as a powerful tool for developers, providing a balance between ease of use and the potential for sophisticated website design and functionality. By leveraging tools like Jekyll, developers can efficiently manage their documentation and project pages, ensuring that their content is not only accessible but also presented in a manner that aligns with their vision and standards.
+
+1. Chose your theme [Supported themes](https://pages.github.com/themes/).
+2. copy the code lines in **Usage** section of ```README.md```.
+3. Go back to your own main page of repository.
+4. Click the **"Add file"** in the main page of repository.
+5. Select the **"Create new file"**.
+6. Enter ```_config.yml``` as the file name.
+7. [How to write out a config file](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+7. Click the **"Commit new file"** at the bottom of page.
 
 ### Hosting a Resume on GitHub Pages
-Andrew Etter encourages saving information through websites instead of PDFs. PDFs can only be saved on your local hard drive, and they inevitably increase in size. In contrast, developers can publish documents on a static website. Moreover, they can keep updating the content according to the project version, always keeping the project version in sync with the document content. Therefore, we use the GitHub page as a website for continuously updating the document. Even if your personal experience and personal skills are enhanced afterward, you only need to modify your resume markdown file in the main page of repository.
+Andrew Etter advocates for the use of websites over PDFs for information dissemination, emphasizing the dynamic and accessible nature of web-based documents. Unlike PDFs, which are static, require local storage, and tend to grow in size, websites offer a flexible platform for publishing documents. This approach enables continuous updates, ensuring documentation remains in lockstep with project versions. Following this philosophy, we leverage GitHub Pages to host our documents, offering a seamless way to keep content current. This method not only aligns with modern technical writing practices but also allows for easy updates to personal portfolios or resumes, simply by editing a Markdown file in the repository's main page. This strategy underscores the importance of adaptability and accessibility in technical documentation, reflecting a move towards more agile and user-friendly content management systems.
 
 1. Click the **"Add file"** in the main page of repository.
 2. Select the **"Upload files"**.

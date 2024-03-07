@@ -65,7 +65,7 @@ To make your resume accessible online through GitHub Pages, follow these steps:
 - **Choose a theme (Optional)**: You can improve the appearance of your page by selecting a theme. This is optional, as your Markdown file will be rendered using the default GitHub style if you do not choose a theme.
 - **Save your changes**: After making your selection, GitHub will automatically generate a URL for your site, which is usually formatted as `https://<your-username>.github.io`.
 
-![Enable GitHub Pages](https://media.giphy.com/media/r52VIeTturQpMcdRQw/giphy.gif)
+![Enable GitHub Pages](https://media.giphy.com/media/Z6ODcBX0bMj8pucO3F/giphy.gif)
 
 ### Chosing your Jekyll Template
 
@@ -80,7 +80,7 @@ Recognizing the inherent benefits outlined by Etter, our choice of Jekyll as the
 7. [How to write out a config file](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
 7. Click the **"Commit new file"** at the bottom of page.
 
-### Hosting a Resume on GitHub Pages
+### Hosting an Resume
 Andrew Etter advocates for the use of websites over PDFs for information dissemination, emphasizing the dynamic and accessible nature of web-based documents. Unlike PDFs, which are static, require local storage, and tend to grow in size, websites offer a flexible platform for publishing documents. This approach enables continuous updates, ensuring documentation remains in lockstep with project versions. Following this philosophy, we leverage GitHub Pages to host our documents, offering a seamless way to keep content current. This method not only aligns with modern technical writing practices but also allows for easy updates to personal portfolios or resumes, simply by editing a Markdown file in the repository's main page. This strategy underscores the importance of adaptability and accessibility in technical documentation, reflecting a move towards more agile and user-friendly content management systems.
 
 1. Click the **"Add file"** in the main page of repository.
@@ -93,7 +93,7 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 
 
 
-![A GIF showing my own github page resume](https://media.giphy.com/media/dmC3I5XDB8NGwrBPYD/giphy.gif)
+![github page resume](https://media.giphy.com/media/dmC3I5XDB8NGwrBPYD/giphy.gif)
 
 
 
@@ -109,16 +109,18 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 ***
 ## Authors and Acknowledgments
 
+#### GitHub Page Template
+- [Ben Balter](https://github.com/benbalter)
+
 #### Authors
-- Junyi Lu
+- Yuze Chen
 
 #### Group Members/Peer Editors
 - Zac Kolton
 - Benjamin Paspaporn
 - Evan Murray
 
-#### GitHub Page Template
-- [Ben Balter](https://github.com/benbalter)
+
 
 ***
 ## FAQs

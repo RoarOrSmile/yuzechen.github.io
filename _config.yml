@@ -5,7 +5,7 @@ description: >-
 github_username:  RoarOrSmile
 
 markdown: kramdown
-theme: minima 
+theme: tactile 
 plugins:
   - jekyll-feed
 

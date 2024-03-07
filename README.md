@@ -119,7 +119,7 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 
 
 ***
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 ### How Does Markdown Streamline Content Creation Compared to Traditional Word Processors?
 

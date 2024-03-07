@@ -11,6 +11,7 @@ University of Manitoba
 Major: Computer Science  
 Relevant Coursework: Data Structures & Algorithms, Agile Software Development, Data Mining & Database Implementation, Full-stack Programming  
 
+
 ## **WORK EXPERIENCE**
 ***
 **Intern - Administrative Management Line**  

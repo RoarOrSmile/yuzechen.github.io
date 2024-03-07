@@ -91,8 +91,9 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 6. Click the **"View deployment"** to visit the GitHub page.
 7. Record the address of GitHub page (e.g, https://andre-loo.github.io/)
 
-![A GIF showing my own github page resume](https://media.giphy.com/media/dmC3I5XDB8NGwrBPYD/giphy.gif)
 
+
+![A GIF showing my own github page resume](https://media.giphy.com/media/dmC3I5XDB8NGwrBPYD/giphy.gif)
 
 
 

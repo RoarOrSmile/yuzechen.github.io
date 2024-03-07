@@ -14,14 +14,14 @@ For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](h
 ***
 ## **practical steps** 
 * [Prerequisites](#Prerequisites)
-* [Why We Chose Markdown](#Why-We-Chose-Markdow)
-* [Getting Started](#Getting-Started)
+* [Purpose](#Why-We-Chose-Markdow)
+* [Instructions](#Getting-Started)
    * [Write your resume](#Getting-Started)
    * [Creating the Repository](#Creating-the-Repository)
    * [Add Your Resume](#Add-Your-Resume)
    * [Enable GitHub Pages](#Enable-GitHub-Pages)
    * [Chosing your Jekyll Template](#Chosing-your-Jekyll-Template)
-   * [Hosting a Resume on GitHub Pages](#Hosting-a-Resume-on-GitHub-Pages)
+   * [Hosting an Resume](#Hosting-an-Resume)
 * [More Resources](#More-Resources)
 * [Authors and Acknowledgments](#Authors-and-Acknowledgments)
 * [FAQs](#FAQs)
@@ -71,12 +71,13 @@ To make your resume accessible online through GitHub Pages, follow these steps:
 
 Recognizing the inherent benefits outlined by Etter, our choice of Jekyll as the theme set for constructing static websites is deliberate. Jekyll simplifies the process of content updates and site customization through its theme-centric architecture. Typically, adjustments to the website can be achieved by modifying settings within the theme files. This level of simplicity ensures that even those with minimal technical expertise can manage and update the website efficiently.Moreover, developers desiring more aesthetically pleasing and personalized pages are not constrained by Jekyll’s theming capabilities alone. The underlying structure of static websites allows for extensive customization through HTML and CSS, enabling developers to tailor the look and feel of their sites to match their unique preferences or branding requirements. This blend of simplicity for basic use cases and flexibility for more complex customizations embodies the core advantages of static websites as extolled by Etter.In essence, static websites serve as a powerful tool for developers, providing a balance between ease of use and the potential for sophisticated website design and functionality. By leveraging tools like Jekyll, developers can efficiently manage their documentation and project pages, ensuring that their content is not only accessible but also presented in a manner that aligns with their vision and standards.
 
+
 1. Chose your theme [Supported themes](https://pages.github.com/themes/).
-2. copy the code lines in **Usage** section of ```README.md```.
+2. Copy the code lines in **Usage** section of ```README.md```.
 3. Go back to your own main page of repository.
 4. Click the **"Add file"** in the main page of repository.
-5. Select the **"Create new file"**.
-6. Enter ```_config.yml``` as the file name.
+5. Click the **"Create new file"**.
+6. Using ```_config.yml``` as the file name.
 7. [How to write out a config file](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
 7. Click the **"Commit new file"** at the bottom of page.
 
@@ -84,28 +85,25 @@ Recognizing the inherent benefits outlined by Etter, our choice of Jekyll as the
 Andrew Etter advocates for the use of websites over PDFs for information dissemination, emphasizing the dynamic and accessible nature of web-based documents. Unlike PDFs, which are static, require local storage, and tend to grow in size, websites offer a flexible platform for publishing documents. This approach enables continuous updates, ensuring documentation remains in lockstep with project versions. Following this philosophy, we leverage GitHub Pages to host our documents, offering a seamless way to keep content current. This method not only aligns with modern technical writing practices but also allows for easy updates to personal portfolios or resumes, simply by editing a Markdown file in the repository's main page. This strategy underscores the importance of adaptability and accessibility in technical documentation, reflecting a move towards more agile and user-friendly content management systems.
 
 1. Click the **"Add file"** in the main page of repository.
-2. Select the **"Upload files"**.
+2. Click the **"Upload files"**.
 3. Drag ```index.md``` (the Resume Markdown file) to the corresponding box.
 4. Click the **"Commit changes"** at the bottom of page.
-5. Click the **"github-pages"** at the bottom right of the main page of the repository
+5. Click the **"github pages"** at the bottom right of the main page of the repository
 6. Click the **"View deployment"** to visit the GitHub page.
-7. Record the address of GitHub page (e.g, https://andre-loo.github.io/)
+7. Save the address of GitHub page 
 
 
-
-![github page resume](https://media.giphy.com/media/dmC3I5XDB8NGwrBPYD/giphy.gif)
+![github page resume](https://media.giphy.com/media/82uv1o96nl3yCj1vob/giphy.gif)
 
 
 
 
 ***
 ## More Resources
-- [Markdown Editors by OS](https://www.oberlo.ca/blog/markdown-editors)
-- [Online Markdown Editors](https://techwiser.com/online-markdown-editor/)
-- [Markdown Tutorial](https://www.markdowntutorial.com/)
-- [Basic Syntax](https://www.markdownguide.org/basic-syntax)  
-- ["Modern Technical Writing" by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 
+- ["Modern Technical Writing" by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+- [5 markdown editors I recommend trying](https://opensource.com/article/21/10/markdown-editors)
+- [Basic Syntax](https://www.markdownguide.org/basic-syntax)  
 ***
 ## Authors and Acknowledgments
 
@@ -116,19 +114,25 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 - Yuze Chen
 
 #### Group Members/Peer Editors
-- Zac Kolton
-- Benjamin Paspaporn
-- Evan Murray
+
 
 
 
 ***
-## FAQs
-#### Why is Markdown better than a word processor?
-- Markdown allows HTML syntax so we can directly create static websites without any obstacles, compared to word's poor HTML export which requires more manipulation and time.
-- In fact, word still requires payment to access. However, Markdown is mostly free and easy to use.
-- Markdown has no platform requirements. As a user, you only need to choose between the online or OS version and you can start using it immediately.
+## Frequently Asked Questions (FAQs)
 
-#### Why is my resume not showing up?
-- Double check the resume file name, since it has to same as ```index.md```
-- Make sure ```index.md``` is not empty file
+### How Does Markdown Streamline Content Creation Compared to Traditional Word Processors?
+
+- **Ease of Use**: Markdown's syntax is designed to be quick to learn and easy to use, emphasizing the readability and writability of content. This makes it ideal for writers who prefer to focus on their text without the distraction of complex formatting options.
+  
+- **Versatility and Portability**: Markdown files are plain text, meaning they can be created and edited with a simple text editor on any operating system. This portability ensures that documents are accessible and editable across different platforms and devices, unlike files created in some proprietary word processors.
+  
+- **Direct Web Publishing**: Markdown's compatibility with HTML allows for straightforward conversion to web formats, facilitating direct publishing on the internet. This seamless transition from document to webpage streamlines the process of sharing content online.
+
+### What Should I Do If My GitHub Pages Site Is Not Displaying My Resume?
+
+- **Check the File Location**: Your `index.md` file must be located in the root directory of your GitHub repository. If it's in a subfolder, GitHub Pages won't automatically recognize it as the main content for your site.
+
+- **Review GitHub Pages Settings**: In your repository settings, make sure GitHub Pages is configured to serve the correct branch and folder. For a resume, you typically want it set to the root of the main branch.
+
+- **Inspect Front Matter**: If you're using Jekyll themes with GitHub Pages, ensure your `index.md` includes the necessary front matter at the top of the file. Even a simple front matter block like `---` (at the beginning and end) can be enough for Jekyll to process the file.

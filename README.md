@@ -114,7 +114,8 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 - Yuze Chen
 
 #### Group Members/Peer Editors
-
+- Saida sanon
+- Demessie Amede
 
 
 

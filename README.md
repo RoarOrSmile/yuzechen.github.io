@@ -27,14 +27,14 @@ In this process, Etter's Modern Technical Writing principles are constantly appl
 For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](https://www.markdowntutorial.com/) to get you started.
 
 
- ### Why We Chose Markdown
+### Why We Chose Markdown
 Andrew Etter, in his influential book Modern Technical Writing, advocates for the democratization of content creation by making it accessible to as broad an audience as possible. One of the core tenets he discusses is the importance of utilizing lightweight markup languages to facilitate easier contribution and collaboration. Markdown, as highlighted by Etter, embodies this philosophy perfectly. Its simplicity and user-friendly syntax make it an ideal choice for writers and contributors of all skill levels. This ease of learning and use aligns with Etter's vision of encouraging more people to contribute, ensuring that technical writing and documentation are not gatekept behind complex tools. By choosing Markdown, we're not just adopting a tool for writing; we're embracing a methodology that lowers barriers to entry and fosters a more inclusive environment for sharing knowledge.
 
 ***
 ## Getting Started 
 
 ### Write your resume 
-1. How to write markdown resume[The Markdown Resume](https://mszep.github.io/pandoc_resume/)
+1. How to write markdown resume [The Markdown Resume](https://mszep.github.io/pandoc_resume/)
 2. Change your resume Markdown file name to ```index.md```
 
 ### Creating the Repository
@@ -90,7 +90,7 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 4. Click the **"Commit changes"** at the bottom of page.
 5. Click the **"github pages"** at the bottom right of the main page of the repository
 6. Click the **"View deployment"** to visit the GitHub page.
-7. Save the address of GitHub page 
+7. Save the address of [GitHub page](https://roarorsmile.github.io/yuzechen.github.io/)
 
 
 ![github page resume](https://media.giphy.com/media/82uv1o96nl3yCj1vob/giphy.gif)
@@ -104,6 +104,7 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
 - ["Modern Technical Writing" by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 - [5 markdown editors I recommend trying](https://opensource.com/article/21/10/markdown-editors)
 - [Basic Syntax](https://www.markdownguide.org/basic-syntax)  
+- [How to add an animated GIF to a Markdown file](https://stackoverflow.com/questions/34341808/is-there-a-way-to-add-an-animated-gif-to-a-markdown-file)
 ***
 ## Authors and Acknowledgments
 

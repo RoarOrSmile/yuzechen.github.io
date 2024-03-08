@@ -6,7 +6,7 @@ In this process, Etter's Modern Technical Writing principles are constantly appl
 ***
 ## **Practical steps** 
 * [Prerequisites](#Prerequisites)
-* [Purpose](#Why-We-Chose-Markdow)
+* [Purpose](#Why-We-Chose-Markdown)
 * [Instructions](#Getting-Started)
    * [Write your resume](#Write-your-resume)
    * [Creating the Repository](#Creating-the-Repository)

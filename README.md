@@ -3,20 +3,12 @@ This README aims to instruct computer science students step-by-step how to forma
 In this process, Etter's Modern Technical Writing principles are constantly applied.
 
 
-## Prerequisites
-- [A GitHub account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
-- [A resume formatted in Markdown (.md file)](https://www.markdownguide.org/)
-- [Basic knowledge of Git and Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](https://www.markdowntutorial.com/) to get you started.
-
-
 ***
-## **practical steps** 
+## **Practical steps** 
 * [Prerequisites](#Prerequisites)
 * [Purpose](#Why-We-Chose-Markdow)
 * [Instructions](#Getting-Started)
-   * [Write your resume](#Getting-Started)
+   * [Write your resume](#Write-your-resume)
    * [Creating the Repository](#Creating-the-Repository)
    * [Add Your Resume](#Add-Your-Resume)
    * [Enable GitHub Pages](#Enable-GitHub-Pages)
@@ -25,6 +17,14 @@ For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](h
 * [More Resources](#More-Resources)
 * [Authors and Acknowledgments](#Authors-and-Acknowledgments)
 * [FAQs](#FAQs)
+
+
+## Prerequisites
+- [A GitHub account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
+- [A resume formatted in Markdown (.md file)](https://www.markdownguide.org/)
+- [Basic knowledge of Git and Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+For those unfamiliar with Markdown, [here's a comprehensive Markdown tutorial](https://www.markdowntutorial.com/) to get you started.
 
 
  ### Why We Chose Markdown
@@ -128,12 +128,8 @@ Andrew Etter advocates for the use of websites over PDFs for information dissemi
   
 - **Versatility and Portability**: Markdown files are plain text, meaning they can be created and edited with a simple text editor on any operating system. This portability ensures that documents are accessible and editable across different platforms and devices, unlike files created in some proprietary word processors.
   
-- **Direct Web Publishing**: Markdown's compatibility with HTML allows for straightforward conversion to web formats, facilitating direct publishing on the internet. This seamless transition from document to webpage streamlines the process of sharing content online.
-
 ### What Should I Do If My GitHub Pages Site Is Not Displaying My Resume?
 
 - **Check the File Location**: Your `index.md` file must be located in the root directory of your GitHub repository. If it's in a subfolder, GitHub Pages won't automatically recognize it as the main content for your site.
 
 - **Review GitHub Pages Settings**: In your repository settings, make sure GitHub Pages is configured to serve the correct branch and folder. For a resume, you typically want it set to the root of the main branch.
-
-- **Inspect Front Matter**: If you're using Jekyll themes with GitHub Pages, ensure your `index.md` includes the necessary front matter at the top of the file. Even a simple front matter block like `---` (at the beginning and end) can be enough for Jekyll to process the file.
